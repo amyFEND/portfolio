@@ -1,3 +1,10 @@
+@import '../index.scss';
+
+@font-face {
+  font-family: slime-joe;
+  src: url("../fonts/slim-joe.otf") format("opentype");
+}
+
 .App {
   text-align: center;
 }
