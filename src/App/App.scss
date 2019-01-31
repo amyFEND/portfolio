@@ -1,8 +1,19 @@
 @import '../index.scss';
 
+// font declaration
 @font-face {
-  font-family: slime-joe;
+  font-family: slim-joe;
   src: url("../fonts/slim-joe.otf") format("opentype");
+}
+
+// global transitions
+* {
+  transition: 300ms all ease-in;
+}
+
+h1 {
+  font-family: slim-joe, sans-serif;
+  font-size: calc(10px + 2vmin);
 }
 
 .App {
@@ -21,7 +32,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
+  font-family: slim-joe, sans-serif;
   color: white;
 }
 
