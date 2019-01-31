@@ -5,7 +5,7 @@ $tiffany : #82C2BF;
 $rose-dark : #A65E5E;
 $rose-light : #C28285;
 $baby-pink : #E0C0C2;
-$white : #F2E6E6;
+$white : #F1EAEA;
 $black : #0D1313;
 
 /*
@@ -26,9 +26,6 @@ $screen-xs-max: 575.98px;
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
