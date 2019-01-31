@@ -1,20 +1,35 @@
 import React, { Component } from 'react';
-import logo from './AmyLogo.svg';
 import './App.scss';
+
+// components
+// import Nav from './components/Nav/Nav';
+// import Tracker from './components/Tracker/Tracker';
+// import Mobile from './components/Mobile/Mobile';
+
+// sections
+import Home from './sections/Home/Home';
+import About from './sections/About/About';
+import Projects from './sections/Projects/Projects';
+import Contact from './sections/Contact/Contact';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="logo" alt="logo" />
-          <p>
-            Work in Progress
-            <span class="one">.</span>
-            <span class="two">.</span>
-            <span class="three">.</span>
-          </p>
-        </header>
+
+        {/* Components */}
+        {/*
+          <Nav />
+          <Tracker />
+          <Mobile />
+          */}
+
+        {/* Sections */}
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
+
       </div>
     );
   }
