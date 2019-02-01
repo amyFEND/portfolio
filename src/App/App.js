@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.css';
 
 // components
 // import Nav from './components/Nav/Nav';
