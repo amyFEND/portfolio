@@ -4,9 +4,9 @@ import './Mobile.scss';
 class Mobile extends Component {
   render() {
     return(
-      <section id="Mobile" className="">
+      <div id="Mobile" className="row">
           Mobile
-      </section>
+      </div>
     )
   }
 }

@@ -3,7 +3,7 @@ import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // components
-// import Nav from './components/Nav/Nav';
+import Nav from './components/Nav/Nav';
 // import Tracker from './components/Tracker/Tracker';
 // import Mobile from './components/Mobile/Mobile';
 
@@ -19,8 +19,8 @@ class App extends Component {
       <div className="App">
 
         {/* Components */}
+        <Nav />
         {/*
-          <Nav />
           <Tracker />
           <Mobile />
           */}
