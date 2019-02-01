@@ -2,11 +2,18 @@
 
 #Home {
   border:1px solid $white;
+  p, span {
+    color: $rose-dark;
+  }
 }
 
 .logo {
   height: 25vmin;
+  max-width: 100vw;
   background: none;
+  g {
+    fill: $rose-dark;
+  }
 }
 
 .App-header {

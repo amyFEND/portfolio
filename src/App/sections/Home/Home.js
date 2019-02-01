@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.scss';
+import {ReactComponent as Logo} from './Assets/AmyLogo.svg';
 
 class Home extends Component {
   render() {
@@ -7,6 +8,7 @@ class Home extends Component {
       <section id="Home" className="container-fluid">
         <div className="container">
           <header className="App-header">
+            <Logo className="logo" alt="logo" />
             <p>
               Work in Progress
               <span class="one">.</span>
