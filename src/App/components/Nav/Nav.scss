@@ -1,7 +1,64 @@
 @import "../../../index.scss";
 
 #Nav {
+  width: 100vw;
+  height: 65px;
+  background-color: $snow;
+  position: sticky;
+  top: 0;
 
+  nav {
+    font-family: slim-joe, sans-serif;
+  }
+
+  ul.navbar-nav {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .slide-nav {
+    right: -5% !important;
+  }
+
+  li.nav-item {
+    display: inline-block;
+    margin: 0 0 0 2.5rem;
+  }
+  .nav-item > .active {
+    color: $rose-dark;
+    border-bottom: 1px solid;
+    padding-bottom: 0px;
+  }
+
+  .nav-link {
+    color: $black;
+    font-family: avenirlight, sans-serif;
+    font-size: calc(12px + 1vmin);
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-bottom: 0;
+
+    &:hover {
+      color: $tiffany !important;
+      border-bottom: 1px solid;
+      padding-bottom: 0px;
+    }
+  }
+}
+
+#navbarNav {
+  text-align: right;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  g {
+    fill: $black;
+    &:hover {
+      fill: $tiffany;
+    }
+  }
 }
 
 /* **** Responsive **** */

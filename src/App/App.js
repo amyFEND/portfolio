@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Nav from './components/Nav/Nav';
 // import Tracker from './components/Tracker/Tracker';
 // import Mobile from './components/Mobile/Mobile';
+import TopButton from './components/TopButton/TopButton';
 
 // sections
 import Home from './sections/Home/Home';
@@ -26,11 +27,20 @@ class App extends Component {
           */}
 
         {/* Sections */}
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        <Home
+            id="Home"
+        />
+        <About
+            id="About"
+        />
+        <Projects
+            id="Projects"
+        />
+        <Contact
+            id="Contact"
+        />
 
+        <TopButton />
       </div>
     );
   }
