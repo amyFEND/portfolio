@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
+import dummyText from './dummyText';
+
 // components
 import Nav from './components/Nav/Nav';
 // import Tracker from './components/Tracker/Tracker';
@@ -32,12 +34,14 @@ class App extends Component {
         />
         <About
             id="About"
+            placeholderTxt={dummyText}
         />
         <Projects
             id="Projects"
         />
         <Contact
             id="Contact"
+            placeholderTxt={dummyText}
         />
 
         <TopButton />
