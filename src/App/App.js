@@ -32,12 +32,21 @@ class App extends Component {
         <Home
             id="Home"
         />
+        <hr
+            id="divider"
+        />
         <About
             id="About"
             placeholderTxt={dummyText}
         />
+        <hr
+            id="divider"
+        />
         <Projects
             id="Projects"
+        />
+        <hr
+            id="divider"
         />
         <Contact
             id="Contact"
