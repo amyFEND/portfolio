@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-scroll';
 import './Nav.scss';
-
-import {ReactComponent as Logo} from '../../sections/Home/Assets/AmyLogo.svg';
 
 class Nav extends Component {
   render() {
     return(
       <div id="Nav" className="container-fluid">
         <nav className="container">
-          <div className="row justify-content-between">
-            <div className="col-1">
-              <a className="navbar-brand" href="/">
-                <Logo id="logo" alt="logo"/>
-              </a>
-            </div>
-
+          <div className="row justify-content-end">
             <div className="col-9">
               <div className="navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">

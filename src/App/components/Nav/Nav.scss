@@ -2,10 +2,11 @@
 
 #Nav {
   width: 100vw;
-  height: 65px;
-  background-color: $snow;
+  height: 60px;
+  background-image: linear-gradient(to top, rgba(241, 234, 234, 0), rgba(241, 234, 234, 0.85), $white);
   position: sticky;
   top: 0;
+  z-index: 20;
 
   nav {
     font-family: slim-joe, sans-serif;
@@ -27,7 +28,7 @@
   .nav-item > .active {
     color: $rose-dark;
     border-bottom: 1px solid;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .nav-link {
@@ -41,7 +42,7 @@
     &:hover {
       color: $tiffany !important;
       border-bottom: 1px solid;
-      padding-bottom: 0px;
+      padding-bottom: 0;
     }
   }
 }
