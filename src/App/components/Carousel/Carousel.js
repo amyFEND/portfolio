@@ -10,17 +10,17 @@ class Carousel extends Component {
         <div class="carousel-inner">
           <div class="carousel-item active">
             {/* <UdaciLogo className="udacilogo" alt="First slide" /> */}
-            <svg class="placeholder" width="200px" height="300px" alt="First slide" ></svg>
+            <svg class="placeholder" width="auto" maxWidth="100%" height="auto" macHeight="100%" alt="First slide" ></svg>
           </div>
 
           <div class="carousel-item">
             {/* <UdaciLogo className="udacilogo" alt="Second slide" /> */}
-            <svg class="placeholder" width="200px" height="300px" alt="Second slide" />
+            <svg class="placeholder" width="auto" maxWidth="100%" height="auto" macHeight="100%" alt="Second slide" />
           </div>
 
           <div class="carousel-item">
             {/* <UdaciLogo className="udacilogo" alt="Third slide" /> */}
-            <svg class="placeholder" width="200px" height="300px" alt="Third slide" />
+            <svg class="placeholder" width="auto" maxWidth="100%" height="auto" macHeight="100%" alt="Third slide" />
           </div>
 
         </div>
