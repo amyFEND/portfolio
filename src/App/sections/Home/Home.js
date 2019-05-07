@@ -11,9 +11,9 @@ class Home extends Component {
             <Logo className="logo" alt="logo" />
             <p>
               Work in Progress
-              <span class="one">.</span>
-              <span class="two">.</span>
-              <span class="three">.</span>
+              <span className="one">.</span>
+              <span className="two">.</span>
+              <span className="three">.</span>
             </p>
           </header>
         </div>
