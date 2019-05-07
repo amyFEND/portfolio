@@ -44,7 +44,7 @@ class Nav extends Component {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                      Projects
+                      My Work
                     </Link>
                   </li>
                   <li className="nav-item">

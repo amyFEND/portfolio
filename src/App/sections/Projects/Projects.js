@@ -8,7 +8,7 @@ class Projects extends Component {
     return(
       <section id="Projects" className="container-fluid">
         <div className="container">
-          <h1>Projects</h1>
+          <h1>My Work</h1>
           <div id="project">
             <Carousel />
           </div>
