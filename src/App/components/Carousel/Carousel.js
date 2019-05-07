@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
 import './Carousel.scss';
 
+import Modal from '../Modal/Modal.js';
 import {ReactComponent as UdaciLogo} from './Assets/udacity.svg';
 
 class Carousel extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      modal: false
+    };
+  }
   render() {
     return(
       <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover">
