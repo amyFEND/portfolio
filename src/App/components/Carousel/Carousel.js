@@ -17,17 +17,17 @@ class Carousel extends Component {
         <div className="carousel-inner">
           <div className="carousel-item active">
             {/* <UdaciLogo className="udacilogo" alt="First slide" /> */}
-            <svg className="placeholder" alt="First slide" />
+            <svg className="placeholder" style={{ width: 'auto', maxwidth: '100%', height: 'auto' }} alt="First slide" />
           </div>
 
           <div className="carousel-item">
             {/* <UdaciLogo className="udacilogo" alt="Second slide" /> */}
-            <svg className="placeholder" alt="Second slide" />
+            <svg className="placeholder" style={{ width: 'auto', maxwidth: '100%', height: 'auto' }} alt="Second slide" />
           </div>
 
           <div className="carousel-item">
             {/* <UdaciLogo className="udacilogo" alt="Third slide" /> */}
-            <svg className="placeholder" alt="Third slide" />
+            <svg className="placeholder" style={{ width: 'auto', maxwidth: '100%', height: 'auto' }} alt="Third slide" />
           </div>
 
         </div>
